@@ -1,0 +1,160 @@
+2020-05-25 13:26:25,407 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: standard
+2020-05-25 13:26:25,430 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-05-25 13:26:25,433 DEBUG [main] PoolingHttpClientConnectionManager:265 - Connection request: [route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-05-25 13:26:25,474 DEBUG [main] PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-05-25 13:26:25,479 DEBUG [main] MainClientExec:235 - Opening connection {s}->https://chromedriver.storage.googleapis.com:443
+2020-05-25 13:26:25,955 DEBUG [main] DefaultManagedHttpClientConnection:96 - http-outgoing-0: Shutdown connection
+2020-05-25 13:26:25,956 DEBUG [main] MainClientExec:129 - Connection discarded
+2020-05-25 13:26:25,957 DEBUG [main] PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-05-25 13:26:25,963 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: standard
+2020-05-25 13:26:25,963 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-05-25 13:26:25,964 DEBUG [main] PoolingHttpClientConnectionManager:265 - Connection request: [route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-05-25 13:26:25,965 DEBUG [main] PoolingHttpClientConnectionManager:309 - Connection leased: [id: 1][route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-05-25 13:26:25,965 DEBUG [main] MainClientExec:235 - Opening connection {s}->https://chromedriver.storage.googleapis.com:443
+2020-05-25 13:26:25,966 DEBUG [main] DefaultManagedHttpClientConnection:96 - http-outgoing-1: Shutdown connection
+2020-05-25 13:26:25,966 DEBUG [main] MainClientExec:129 - Connection discarded
+2020-05-25 13:26:25,967 DEBUG [main] PoolingHttpClientConnectionManager:348 - Connection released: [id: 1][route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-05-25 13:26:25,997 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: standard
+2020-05-25 13:26:25,997 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-05-25 13:26:25,998 DEBUG [main] PoolingHttpClientConnectionManager:265 - Connection request: [route: {}->http://npm.taobao.org:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-05-25 13:26:25,999 DEBUG [main] PoolingHttpClientConnectionManager:309 - Connection leased: [id: 2][route: {}->http://npm.taobao.org:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-05-25 13:26:25,999 DEBUG [main] MainClientExec:235 - Opening connection {}->http://npm.taobao.org:80
+2020-05-25 13:26:26,567 DEBUG [main] DefaultHttpClientConnectionOperator:139 - Connecting to npm.taobao.org/114.55.80.225:80
+2020-05-25 13:26:27,450 DEBUG [main] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.43.107:65189<->114.55.80.225:80
+2020-05-25 13:26:27,451 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-2: set socket timeout to 30000
+2020-05-25 13:26:27,451 DEBUG [main] MainClientExec:256 - Executing request GET /mirrors/chromedriver/LATEST_RELEASE HTTP/1.1
+2020-05-25 13:26:27,452 DEBUG [main] MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-05-25 13:26:27,453 DEBUG [main] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-05-25 13:26:27,456 DEBUG [main] headers:133 - http-outgoing-2 >> GET /mirrors/chromedriver/LATEST_RELEASE HTTP/1.1
+2020-05-25 13:26:27,457 DEBUG [main] headers:136 - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.6
+2020-05-25 13:26:27,457 DEBUG [main] headers:136 - http-outgoing-2 >> Connection: keep-alive
+2020-05-25 13:26:27,458 DEBUG [main] headers:136 - http-outgoing-2 >> Host: npm.taobao.org
+2020-05-25 13:26:27,458 DEBUG [main] headers:136 - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2020-05-25 13:26:27,459 DEBUG [main] wire:73 - http-outgoing-2 >> "GET /mirrors/chromedriver/LATEST_RELEASE HTTP/1.1[\r][\n]"
+2020-05-25 13:26:27,460 DEBUG [main] wire:73 - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.6[\r][\n]"
+2020-05-25 13:26:27,460 DEBUG [main] wire:73 - http-outgoing-2 >> "Connection: keep-alive[\r][\n]"
+2020-05-25 13:26:27,460 DEBUG [main] wire:73 - http-outgoing-2 >> "Host: npm.taobao.org[\r][\n]"
+2020-05-25 13:26:27,461 DEBUG [main] wire:73 - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-05-25 13:26:27,461 DEBUG [main] wire:73 - http-outgoing-2 >> "[\r][\n]"
+2020-05-25 13:26:27,980 DEBUG [main] wire:73 - http-outgoing-2 << "HTTP/1.1 302 Found[\r][\n]"
+2020-05-25 13:26:27,981 DEBUG [main] wire:73 - http-outgoing-2 << "Server: nginx/1.15.6[\r][\n]"
+2020-05-25 13:26:27,981 DEBUG [main] wire:73 - http-outgoing-2 << "Date: Mon, 25 May 2020 07:55:59 GMT[\r][\n]"
+2020-05-25 13:26:27,982 DEBUG [main] wire:73 - http-outgoing-2 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2020-05-25 13:26:27,982 DEBUG [main] wire:73 - http-outgoing-2 << "Content-Length: 149[\r][\n]"
+2020-05-25 13:26:27,983 DEBUG [main] wire:73 - http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+2020-05-25 13:26:27,983 DEBUG [main] wire:73 - http-outgoing-2 << "Vary: Accept-Encoding[\r][\n]"
+2020-05-25 13:26:27,984 DEBUG [main] wire:73 - http-outgoing-2 << "access-control-allow-origin: *[\r][\n]"
+2020-05-25 13:26:27,984 DEBUG [main] wire:73 - http-outgoing-2 << "Location: https://cdn.npm.taobao.org/dist/chromedriver/LATEST_RELEASE[\r][\n]"
+2020-05-25 13:26:27,984 DEBUG [main] wire:73 - http-outgoing-2 << "X-Response-Time: 2[\r][\n]"
+2020-05-25 13:26:27,985 DEBUG [main] wire:73 - http-outgoing-2 << "Strict-Transport-Security: max-age=15768000[\r][\n]"
+2020-05-25 13:26:27,985 DEBUG [main] wire:73 - http-outgoing-2 << "[\r][\n]"
+2020-05-25 13:26:27,985 DEBUG [main] wire:87 - http-outgoing-2 << "Redirecting to <a href="https://cdn.npm.taobao.org/dist/chromedriver/LATEST_RELEASE">https://cdn.npm.taobao.org/dist/chromedriver/LATEST_RELEASE</a>."
+2020-05-25 13:26:27,990 DEBUG [main] headers:122 - http-outgoing-2 << HTTP/1.1 302 Found
+2020-05-25 13:26:27,991 DEBUG [main] headers:125 - http-outgoing-2 << Server: nginx/1.15.6
+2020-05-25 13:26:27,991 DEBUG [main] headers:125 - http-outgoing-2 << Date: Mon, 25 May 2020 07:55:59 GMT
+2020-05-25 13:26:27,992 DEBUG [main] headers:125 - http-outgoing-2 << Content-Type: text/html; charset=utf-8
+2020-05-25 13:26:27,992 DEBUG [main] headers:125 - http-outgoing-2 << Content-Length: 149
+2020-05-25 13:26:27,992 DEBUG [main] headers:125 - http-outgoing-2 << Connection: keep-alive
+2020-05-25 13:26:27,993 DEBUG [main] headers:125 - http-outgoing-2 << Vary: Accept-Encoding
+2020-05-25 13:26:27,993 DEBUG [main] headers:125 - http-outgoing-2 << access-control-allow-origin: *
+2020-05-25 13:26:27,993 DEBUG [main] headers:125 - http-outgoing-2 << Location: https://cdn.npm.taobao.org/dist/chromedriver/LATEST_RELEASE
+2020-05-25 13:26:27,994 DEBUG [main] headers:125 - http-outgoing-2 << X-Response-Time: 2
+2020-05-25 13:26:27,994 DEBUG [main] headers:125 - http-outgoing-2 << Strict-Transport-Security: max-age=15768000
+2020-05-25 13:26:28,000 DEBUG [main] MainClientExec:285 - Connection can be kept alive indefinitely
+2020-05-25 13:26:28,005 DEBUG [main] DefaultRedirectStrategy:143 - Redirect requested to location 'https://cdn.npm.taobao.org/dist/chromedriver/LATEST_RELEASE'
+2020-05-25 13:26:28,009 DEBUG [main] RedirectExec:144 - Resetting target auth state
+2020-05-25 13:26:28,009 DEBUG [main] RedirectExec:156 - Redirecting to 'https://cdn.npm.taobao.org/dist/chromedriver/LATEST_RELEASE' via {s}->https://cdn.npm.taobao.org:443
+2020-05-25 13:26:28,011 DEBUG [main] PoolingHttpClientConnectionManager:341 - Connection [id: 2][route: {}->http://npm.taobao.org:80] can be kept alive indefinitely
+2020-05-25 13:26:28,012 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-2: set socket timeout to 0
+2020-05-25 13:26:28,013 DEBUG [main] PoolingHttpClientConnectionManager:348 - Connection released: [id: 2][route: {}->http://npm.taobao.org:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-05-25 13:26:28,013 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: standard
+2020-05-25 13:26:28,014 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-05-25 13:26:28,014 DEBUG [main] PoolingHttpClientConnectionManager:265 - Connection request: [route: {s}->https://cdn.npm.taobao.org:443][total kept alive: 1; route allocated: 0 of 2; total allocated: 1 of 20]
+2020-05-25 13:26:28,015 DEBUG [main] PoolingHttpClientConnectionManager:309 - Connection leased: [id: 3][route: {s}->https://cdn.npm.taobao.org:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 2 of 20]
+2020-05-25 13:26:28,015 DEBUG [main] MainClientExec:235 - Opening connection {s}->https://cdn.npm.taobao.org:443
+2020-05-25 13:26:28,967 DEBUG [main] DefaultHttpClientConnectionOperator:139 - Connecting to cdn.npm.taobao.org/47.246.44.228:443
+2020-05-25 13:26:28,968 DEBUG [main] SSLConnectionSocketFactory:337 - Connecting socket to cdn.npm.taobao.org/47.246.44.228:443 with timeout 0
+2020-05-25 13:26:29,511 DEBUG [main] SSLConnectionSocketFactory:390 - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+2020-05-25 13:26:29,512 DEBUG [main] SSLConnectionSocketFactory:391 - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-05-25 13:26:29,512 DEBUG [main] SSLConnectionSocketFactory:395 - Starting handshake
+2020-05-25 13:26:30,823 DEBUG [main] SSLConnectionSocketFactory:425 - Secure session established
+2020-05-25 13:26:30,823 DEBUG [main] SSLConnectionSocketFactory:426 -  negotiated protocol: TLSv1.2
+2020-05-25 13:26:30,824 DEBUG [main] SSLConnectionSocketFactory:427 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+2020-05-25 13:26:30,827 DEBUG [main] SSLConnectionSocketFactory:435 -  peer principal: CN=npm.taobao.org, O="Alibaba (China) Technology Co., Ltd.", L=HangZhou, ST=ZheJiang, C=CN
+2020-05-25 13:26:30,828 DEBUG [main] SSLConnectionSocketFactory:444 -  peer alternative names: [npm.taobao.org, registry.npm.taobao.org, r.npm.taobao.org, cdn.npm.taobao.org]
+2020-05-25 13:26:30,828 DEBUG [main] SSLConnectionSocketFactory:448 -  issuer principal: CN=YmU2NTNlNDQwMWRi 2, C=EN
+2020-05-25 13:26:30,829 DEBUG [main] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.43.107:65192<->47.246.44.228:443
+2020-05-25 13:26:30,829 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-3: set socket timeout to 30000
+2020-05-25 13:26:30,829 DEBUG [main] MainClientExec:256 - Executing request GET /dist/chromedriver/LATEST_RELEASE HTTP/1.1
+2020-05-25 13:26:30,830 DEBUG [main] MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-05-25 13:26:30,830 DEBUG [main] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-05-25 13:26:30,831 DEBUG [main] headers:133 - http-outgoing-3 >> GET /dist/chromedriver/LATEST_RELEASE HTTP/1.1
+2020-05-25 13:26:30,832 DEBUG [main] headers:136 - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.6
+2020-05-25 13:26:30,832 DEBUG [main] headers:136 - http-outgoing-3 >> Connection: keep-alive
+2020-05-25 13:26:30,832 DEBUG [main] headers:136 - http-outgoing-3 >> Host: cdn.npm.taobao.org
+2020-05-25 13:26:30,833 DEBUG [main] headers:136 - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+2020-05-25 13:26:30,833 DEBUG [main] wire:73 - http-outgoing-3 >> "GET /dist/chromedriver/LATEST_RELEASE HTTP/1.1[\r][\n]"
+2020-05-25 13:26:30,834 DEBUG [main] wire:73 - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.6[\r][\n]"
+2020-05-25 13:26:30,834 DEBUG [main] wire:73 - http-outgoing-3 >> "Connection: keep-alive[\r][\n]"
+2020-05-25 13:26:30,834 DEBUG [main] wire:73 - http-outgoing-3 >> "Host: cdn.npm.taobao.org[\r][\n]"
+2020-05-25 13:26:30,835 DEBUG [main] wire:73 - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-05-25 13:26:30,835 DEBUG [main] wire:73 - http-outgoing-3 >> "[\r][\n]"
+2020-05-25 13:26:31,347 DEBUG [main] wire:73 - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+2020-05-25 13:26:31,348 DEBUG [main] wire:73 - http-outgoing-3 << "Server: Tengine[\r][\n]"
+2020-05-25 13:26:31,348 DEBUG [main] wire:73 - http-outgoing-3 << "Content-Type: application/octet-stream[\r][\n]"
+2020-05-25 13:26:31,349 DEBUG [main] wire:73 - http-outgoing-3 << "Content-Length: 12[\r][\n]"
+2020-05-25 13:26:31,349 DEBUG [main] wire:73 - http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+2020-05-25 13:26:31,349 DEBUG [main] wire:73 - http-outgoing-3 << "Date: Mon, 25 May 2020 05:32:39 GMT[\r][\n]"
+2020-05-25 13:26:31,350 DEBUG [main] wire:73 - http-outgoing-3 << "x-oss-request-id: 5ECB587710263C31357C9767[\r][\n]"
+2020-05-25 13:26:31,350 DEBUG [main] wire:73 - http-outgoing-3 << "x-oss-cdn-auth: success[\r][\n]"
+2020-05-25 13:26:31,350 DEBUG [main] wire:73 - http-outgoing-3 << "Accept-Ranges: bytes[\r][\n]"
+2020-05-25 13:26:31,350 DEBUG [main] wire:73 - http-outgoing-3 << "ETag: "378D9C7243DB9092DE8474D24DC970CF"[\r][\n]"
+2020-05-25 13:26:31,350 DEBUG [main] wire:73 - http-outgoing-3 << "Last-Modified: Tue, 19 May 2020 19:13:40 GMT[\r][\n]"
+2020-05-25 13:26:31,351 DEBUG [main] wire:73 - http-outgoing-3 << "x-oss-object-type: Normal[\r][\n]"
+2020-05-25 13:26:31,351 DEBUG [main] wire:73 - http-outgoing-3 << "x-oss-hash-crc64ecma: 7477320187099166416[\r][\n]"
+2020-05-25 13:26:31,352 DEBUG [main] wire:73 - http-outgoing-3 << "x-oss-storage-class: Standard[\r][\n]"
+2020-05-25 13:26:31,352 DEBUG [main] wire:73 - http-outgoing-3 << "Cache-Control: max-age=0, s-maxage=86400[\r][\n]"
+2020-05-25 13:26:31,352 DEBUG [main] wire:73 - http-outgoing-3 << "Content-MD5: N42cckPbkJLehHTSTclwzw==[\r][\n]"
+2020-05-25 13:26:31,353 DEBUG [main] wire:73 - http-outgoing-3 << "x-oss-server-time: 1[\r][\n]"
+2020-05-25 13:26:31,353 DEBUG [main] wire:73 - http-outgoing-3 << "Age: 8603[\r][\n]"
+2020-05-25 13:26:31,353 DEBUG [main] wire:73 - http-outgoing-3 << "Ali-Swift-Global-Savetime: 1590037709[\r][\n]"
+2020-05-25 13:26:31,354 DEBUG [main] wire:73 - http-outgoing-3 << "X-Cache: HIT TCP_MEM_HIT dirn:11:346425467[\r][\n]"
+2020-05-25 13:26:31,354 DEBUG [main] wire:73 - http-outgoing-3 << "X-Swift-SaveTime: Mon, 25 May 2020 05:32:39 GMT[\r][\n]"
+2020-05-25 13:26:31,354 DEBUG [main] wire:73 - http-outgoing-3 << "X-Swift-CacheTime: 86400[\r][\n]"
+2020-05-25 13:26:31,355 DEBUG [main] wire:73 - http-outgoing-3 << "Via: cache7.se1[0,200-0,H], cache4.se1[1,0][\r][\n]"
+2020-05-25 13:26:31,355 DEBUG [main] wire:73 - http-outgoing-3 << "Timing-Allow-Origin: *[\r][\n]"
+2020-05-25 13:26:31,355 DEBUG [main] wire:73 - http-outgoing-3 << "EagleId: 2ff62c9815903933629463859e[\r][\n]"
+2020-05-25 13:26:31,356 DEBUG [main] wire:73 - http-outgoing-3 << "[\r][\n]"
+2020-05-25 13:26:31,356 DEBUG [main] wire:87 - http-outgoing-3 << "83.0.4103.39"
+2020-05-25 13:26:31,356 DEBUG [main] headers:122 - http-outgoing-3 << HTTP/1.1 200 OK
+2020-05-25 13:26:31,357 DEBUG [main] headers:125 - http-outgoing-3 << Server: Tengine
+2020-05-25 13:26:31,357 DEBUG [main] headers:125 - http-outgoing-3 << Content-Type: application/octet-stream
+2020-05-25 13:26:31,358 DEBUG [main] headers:125 - http-outgoing-3 << Content-Length: 12
+2020-05-25 13:26:31,358 DEBUG [main] headers:125 - http-outgoing-3 << Connection: keep-alive
+2020-05-25 13:26:31,358 DEBUG [main] headers:125 - http-outgoing-3 << Date: Mon, 25 May 2020 05:32:39 GMT
+2020-05-25 13:26:31,359 DEBUG [main] headers:125 - http-outgoing-3 << x-oss-request-id: 5ECB587710263C31357C9767
+2020-05-25 13:26:31,359 DEBUG [main] headers:125 - http-outgoing-3 << x-oss-cdn-auth: success
+2020-05-25 13:26:31,359 DEBUG [main] headers:125 - http-outgoing-3 << Accept-Ranges: bytes
+2020-05-25 13:26:31,359 DEBUG [main] headers:125 - http-outgoing-3 << ETag: "378D9C7243DB9092DE8474D24DC970CF"
+2020-05-25 13:26:31,360 DEBUG [main] headers:125 - http-outgoing-3 << Last-Modified: Tue, 19 May 2020 19:13:40 GMT
+2020-05-25 13:26:31,360 DEBUG [main] headers:125 - http-outgoing-3 << x-oss-object-type: Normal
+2020-05-25 13:26:31,360 DEBUG [main] headers:125 - http-outgoing-3 << x-oss-hash-crc64ecma: 7477320187099166416
+2020-05-25 13:26:31,360 DEBUG [main] headers:125 - http-outgoing-3 << x-oss-storage-class: Standard
+2020-05-25 13:26:31,361 DEBUG [main] headers:125 - http-outgoing-3 << Cache-Control: max-age=0, s-maxage=86400
+2020-05-25 13:26:31,361 DEBUG [main] headers:125 - http-outgoing-3 << Content-MD5: N42cckPbkJLehHTSTclwzw==
+2020-05-25 13:26:31,361 DEBUG [main] headers:125 - http-outgoing-3 << x-oss-server-time: 1
+2020-05-25 13:26:31,361 DEBUG [main] headers:125 - http-outgoing-3 << Age: 8603
+2020-05-25 13:26:31,362 DEBUG [main] headers:125 - http-outgoing-3 << Ali-Swift-Global-Savetime: 1590037709
+2020-05-25 13:26:31,362 DEBUG [main] headers:125 - http-outgoing-3 << X-Cache: HIT TCP_MEM_HIT dirn:11:346425467
+2020-05-25 13:26:31,362 DEBUG [main] headers:125 - http-outgoing-3 << X-Swift-SaveTime: Mon, 25 May 2020 05:32:39 GMT
+2020-05-25 13:26:31,362 DEBUG [main] headers:125 - http-outgoing-3 << X-Swift-CacheTime: 86400
+2020-05-25 13:26:31,363 DEBUG [main] headers:125 - http-outgoing-3 << Via: cache7.se1[0,200-0,H], cache4.se1[1,0]
+2020-05-25 13:26:31,363 DEBUG [main] headers:125 - http-outgoing-3 << Timing-Allow-Origin: *
+2020-05-25 13:26:31,363 DEBUG [main] headers:125 - http-outgoing-3 << EagleId: 2ff62c9815903933629463859e
+2020-05-25 13:26:31,364 DEBUG [main] MainClientExec:285 - Connection can be kept alive indefinitely
+2020-05-25 13:26:31,371 DEBUG [main] PoolingHttpClientConnectionManager:341 - Connection [id: 3][route: {s}->https://cdn.npm.taobao.org:443] can be kept alive indefinitely
+2020-05-25 13:26:31,371 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-3: set socket timeout to 0
+2020-05-25 13:26:31,372 DEBUG [main] PoolingHttpClientConnectionManager:348 - Connection released: [id: 3][route: {s}->https://cdn.npm.taobao.org:443][total kept alive: 2; route allocated: 1 of 2; total allocated: 2 of 20]
+2020-05-25 13:26:32,422 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-05-25 13:26:32,426 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-05-25 13:26:55,588  INFO [main] BaseTest:34 - tittleBuy Insurance Plans & Policies in India Online - Shriram Life
